@@ -1,0 +1,346 @@
+/*
+Author: Al Nur Tarique Robi
+Front-End Designer
+E-mail: khanrobi127@gmail.com
+*/
+
+/*  
+=====Index=====
+1.Global CSS
+2.Header
+3.Screens
+4.Features
+5.Features Perspective
+6.Opinions
+7.Download App
+8.Footer
+*/
+
+ /* Global CSS */
+ body{
+ 	font-size: 15px;
+ }
+ h1{
+ 	font-size: 36px;
+ }
+ h2{
+ 	font-size: 30px;
+ }
+ h3{
+ 	font-size: 30px;
+ }
+ h4{
+ }
+ h5{
+ 	font-size: 22px;
+ }
+ h6{
+ 	font-size: 18px;
+ }
+ p{
+ 	font-size: 15px;
+ }
+ a{
+ 	color: #111111;
+ }
+section {
+  padding: 130px 0;
+}
+
+/* Header Section CSS */
+.bg-dark{
+    background-color: #0a2345!important;
+}
+.header{
+	background-color: #0a2345;
+
+}
+.header span{
+	color: #2a5da3;
+}
+.header h1{
+	color: #fff;
+}
+.header p{
+	color: #2a5da3;
+}
+.header .btn{
+	color: #fff;
+	background-color: transparent;
+	border-color: #2a5da3;
+	border-radius: 20px;
+	padding: 10px 30px;
+    margin-top: 50px;
+}
+
+/* Screens Section CSS */
+.screens{
+	background: url(../img/one-image.png) no-repeat;
+	background-color: #0a2345;
+}
+.screens img{
+	width: 100%;
+}
+.screens .img-1{
+	width: 90%;
+}
+.screens .img-3{
+	width: 90%;
+}
+/* Features Section CSS */
+.features{
+	background: url(../img/Headphones.png) no-repeat;
+	background-color: #0a2345;
+	background-size: 45%;
+}
+.features span{
+	color: #2a5da3;
+}
+.features h1{
+	color: #fff;
+}
+.features p{
+	color: #384c68;
+    line-height: 30px;
+    margin-top: 26px;
+}
+.features .btn{
+	color: #fff;
+	background-color: transparent;
+	border-color: #2a5da3;
+	border-radius: 20px;
+	padding: 10px 30px;
+    margin-top: 28px;
+}
+/* Features-2 Section CSS */
+.features-2{
+	background-color: #0a2345;
+}
+.features-2 span{
+	color: #2a5da3;
+}
+.features-2 h1{
+	color: #fff;
+}
+.fa{
+	color: #ff3334;
+}
+.features-2 h5{
+	color: #fff;
+	font-size: 19px;
+}
+.features-2 p{
+	color: #607189;
+    line-height: 28px;
+    margin-top: 18px;
+}
+.features-2 img{
+	width: 100%;
+}
+.fa-volume-up{
+	font-size: 40px;
+	margin-top: 50px;
+    margin-bottom: 12px;
+}
+.fa-line-chart{
+	font-size: 40px;
+	margin-top: 50px;
+    margin-bottom: 12px;
+}
+.fa-headphones{
+	font-size: 40px;
+	margin-top: 50px;
+    margin-bottom: 12px;
+}
+.fa-music{
+	font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 12px;
+}
+/* Features Perspective Section CSS*/
+.features-perspective{
+	background: url(../img/bg-mb.png) no-repeat;
+	background-color: #0a2345;
+	background-position: right;
+	background-size: 50%;
+}
+.features-perspective h3{
+	color: #fff;
+}
+.features-perspective p{
+	color: #607189;
+    line-height: 28px;
+    margin-top: 18px;
+}
+.fa-power-off{
+	font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 12px;
+}
+/* Opinions Section CSS */
+.opinions{
+	background: url(../img/transparent-bg_psd_template.png) no-repeat;
+	background-size: cover;
+}
+.opinions p{
+	color: #607189;
+    line-height: 28px;
+    margin-top: 18px;
+    font-size: 17px;
+}
+.opinions h6{
+	color: #2a5da3;
+	font-size: 16px;
+	margin-top: 40px;
+}
+
+/* Download Section CSS */
+.download-app{
+	background-color: #030911;
+}
+.download-app h1{
+	color: #fff;
+}
+.download-app p{
+	color: #64758c;
+}
+.download-app img{
+	width: 70%;
+    display: block;
+    margin: 0 auto;
+    margin-top: -60px;
+}
+.download-app .btn{
+	color: #fff;
+    background-color: transparent;
+    border-color: #2a5da3;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin: 50px auto;
+    display: block;
+}
+/* Footer Section CSS */
+footer{
+	background-color: #030911;
+}
+footer ul{
+	list-style-type: none;
+	padding: 0;
+}
+footer li{
+	display: inline-block;
+	color: #14396a;
+	margin: 10px 10px;
+}
+footer p{
+	color: #14396a;
+}
+
+/* Media Query Codes */
+@media screen and (max-width: 500px){
+
+section {
+    padding: 50px 0;
+}
+.header h1 {
+    font-size: 24px;
+}
+.header p {
+    font-size: 14px;
+}
+.screens .img-1 {
+    width: 100%;
+	margin-bottom: 30px;
+}
+.screens img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.screens .img-3 {
+    width: 100%;
+}
+.features {
+    background-size: 100%;
+}
+.features h1 {
+    font-size: 25px;
+}
+.features p {
+    text-align: center;
+    font-size: 14px;
+}
+.features .btn {
+    display: block;
+    margin: 0 auto;
+}
+.features-2 h1 {
+    font-size: 26px;
+}
+.fa-volume-up {
+    display: block;
+    text-align: center;
+}
+.features-2 h5 {
+	text-align: center;
+    font-size: 18px;
+}
+.features-2 p {
+	text-align: center;
+    font-size: 14px;
+}
+.fa-line-chart {
+    display: block;
+    text-align: center;
+}
+.fa-headphones {
+    display: block;
+    text-align: center;
+}
+.fa-music {
+    display: block;
+    text-align: center;
+}
+.fa-power-off {
+    display: block;
+    text-align: center;
+}
+.features-perspective {
+    background-size: 100%;
+}
+.features-perspective h3 {
+    font-size: 26px;
+    text-align: center;
+}
+.features-perspective p {
+    font-size: 13px;
+    text-align: center;
+}
+.opinions h6 {
+    font-size: 14px;
+}
+.download-app h1 {
+    font-size: 26px;
+}
+.download-app p {
+    margin-top: 20px;
+    line-height: 26px;
+}
+.download-app img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+.download-app .btn {
+    color: #fff;
+    background-color: transparent;
+    border-color: #2a5da3;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin: 50px auto;
+    display: block;
+    margin-top: 80px;
+}
+footer p {
+    text-align: center;
+}
+}
